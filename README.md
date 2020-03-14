@@ -1,1 +1,1 @@
-# case-study-fbk-banking-service
+# Case study: FBK banking service
