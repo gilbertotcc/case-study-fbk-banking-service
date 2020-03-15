@@ -1,0 +1,11 @@
+{
+  "status": "KO",
+  "errors": [
+    {
+      "code": "REQ001",
+      "description": "Invalid scope: access to service not authorized",
+      "params": ""
+    }
+  ],
+  "payload": {}
+}

@@ -1,0 +1,190 @@
+{
+  "status": "OK",
+  "error": [],
+  "payload": {
+    "list": [
+      {
+        "transactionId": "1520405321",
+        "operationId": "20000048656950",
+        "accountingDate": "2020-03-13",
+        "valueDate": "2020-03-13",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -1.26,
+        "currency": "EUR",
+        "description": "PD BOLLETTINO POSTE"
+      },
+      {
+        "transactionId": "1520405320",
+        "operationId": "20000048656950",
+        "accountingDate": "2020-03-13",
+        "valueDate": "2020-03-13",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0016"
+        },
+        "amount": -2.15,
+        "currency": "EUR",
+        "description": "CO COMM. BOLL. POSTE"
+      },
+      {
+        "transactionId": "1520403670",
+        "operationId": "20000048656104",
+        "accountingDate": "2020-03-13",
+        "valueDate": "2020-03-13",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0010"
+        },
+        "amount": 1000.00,
+        "currency": "EUR",
+        "description": "BD FABRICK S P A         DA 03268.22300         Data Ordine 13032020 PROVA LIMITI API"
+      },
+      {
+        "transactionId": "",
+        "operationId": "00000000560235",
+        "accountingDate": "2020-02-28",
+        "valueDate": "2020-03-01",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -259.10,
+        "currency": "EUR",
+        "description": "PD VISA CORPORATE 01"
+      },
+      {
+        "transactionId": "1505868734001",
+        "operationId": "20000028020993",
+        "accountingDate": "2020-02-10",
+        "valueDate": "2020-02-09",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0010"
+        },
+        "amount": 360.00,
+        "currency": "EUR",
+        "description": "BD LUCA TERRIBILE        DA 03268.44430         DATA ORDINE 09022020 COPERTURA CARTA CREDITO"
+      },
+      {
+        "transactionId": "023551",
+        "operationId": "00000000023551",
+        "accountingDate": "2020-01-31",
+        "valueDate": "2020-02-01",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -358.18,
+        "currency": "EUR",
+        "description": "PD VISA CORPORATE 12"
+      },
+      {
+        "transactionId": "1497084676002",
+        "operationId": "20000014772122",
+        "accountingDate": "2020-01-23",
+        "valueDate": "2020-01-23",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0034"
+        },
+        "amount": -0.01,
+        "currency": "EUR",
+        "description": "GC LUCA TERRIBILE         DATA ORDINE 23012020 TEST 1"
+      },
+      {
+        "transactionId": "1490501374001",
+        "operationId": "20000006023654",
+        "accountingDate": "2020-01-09",
+        "valueDate": "2020-01-09",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0010"
+        },
+        "amount": 570.00,
+        "currency": "EUR",
+        "description": "BD LUCA TERRIBILE        DA 03268.49130         DATA ORDINE 09012020 COPERTURA SPESE"
+      },
+      {
+        "transactionId": "519157",
+        "operationId": "00000000519157",
+        "accountingDate": "2019-12-31",
+        "valueDate": "2020-01-01",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -586.39,
+        "currency": "EUR",
+        "description": "PD VISA CORPORATE 11"
+      },
+      {
+        "transactionId": "1476867193001",
+        "operationId": "19000214902246",
+        "accountingDate": "2019-12-13",
+        "valueDate": "2019-12-13",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0034"
+        },
+        "amount": 330.00,
+        "currency": "EUR",
+        "description": "GC LUCA TERRIBILE        DA 03268.22300         DATA ORDINE 13122019 COPERTURA SPESE"
+      },
+      {
+        "transactionId": "1476867199001",
+        "operationId": "19000214902305",
+        "accountingDate": "2019-12-13",
+        "valueDate": "2019-12-13",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0034"
+        },
+        "amount": 31.00,
+        "currency": "EUR",
+        "description": "GC LUCA TERRIBILE        DA 03268.22300         DATA ORDINE 13122019 VACANZA GENNAIO"
+      },
+      {
+        "transactionId": "282831",
+        "operationId": "00000000282831",
+        "accountingDate": "2019-11-29",
+        "valueDate": "2019-12-01",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -343.77,
+        "currency": "EUR",
+        "description": "PD VISA CORPORATE 10"
+      },
+      {
+        "transactionId": "1460159524001",
+        "operationId": "19000191134336",
+        "accountingDate": "2019-11-11",
+        "valueDate": "2019-11-09",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0010"
+        },
+        "amount": 854.00,
+        "currency": "EUR",
+        "description": "BD LUCA TERRIBILE        DA 03268.49130         DATA ORDINE 09112019 COPERTURA VISA"
+      },
+      {
+        "transactionId": "032067",
+        "operationId": "00000000032067",
+        "accountingDate": "2019-10-31",
+        "valueDate": "2019-11-01",
+        "type": {
+          "enumeration": "GBS_TRANSACTION_TYPE",
+          "value": "GBS_ACCOUNT_TRANSACTION_TYPE_0050"
+        },
+        "amount": -407.75,
+        "currency": "EUR",
+        "description": "PD VISA CORPORATE 09"
+      }
+    ]
+  }
+}
