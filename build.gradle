@@ -20,6 +20,7 @@ configurations {
 
 repositories {
   mavenCentral()
+  jcenter()
 }
 
 dependencies {
@@ -29,6 +30,7 @@ dependencies {
   // COMMON
   compileOnly 'org.projectlombok:lombok'
   annotationProcessor 'org.projectlombok:lombok'
+  compile 'io.vavr:vavr:0.10.2'
 
   // TESTS
   testCompileOnly 'org.projectlombok:lombok'
@@ -40,6 +42,9 @@ dependencies {
   testImplementation 'org.junit.jupiter:junit-jupiter-params'
   testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
   testImplementation 'org.mockito:mockito-junit-jupiter:2.21.0'
+  testCompile 'org.skyscreamer:jsonassert:1.5.0'
+  testCompile 'org.mockito:mockito-core:2.23.4'
+  testCompile 'com.github.tomakehurst:wiremock:2.18.0'
 
   //CODE QUALITY
   checkstyle 'com.puppycrawl.tools:checkstyle:8.12'

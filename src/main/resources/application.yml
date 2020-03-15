@@ -1,1 +1,3 @@
-
+fabrick:
+  baseUrl: ${BASE_URL:https://sandbox.platfr.io}
+  apiKey: ${API_KEY}
