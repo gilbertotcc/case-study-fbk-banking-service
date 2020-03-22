@@ -6,5 +6,5 @@ account:
   id: ${ACCOUNT_ID:}
 
 fabrick:
-  baseUrl: ${BASE_URL:https://sandbox.platfr.io}
-  apiKey: ${API_KEY:}
+  baseUrl: ${FABRICK_BASE_URL:https://sandbox.platfr.io}
+  apiKey: ${FABRICK_API_KEY:}

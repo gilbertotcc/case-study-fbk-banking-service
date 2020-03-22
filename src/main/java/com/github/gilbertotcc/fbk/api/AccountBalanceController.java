@@ -2,6 +2,7 @@ package com.github.gilbertotcc.fbk.api;
 
 import com.github.gilbertotcc.fbk.domain.account.AccountBalance;
 import com.github.gilbertotcc.fbk.domain.account.AccountBalanceRetriever;
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,6 +17,7 @@ public class AccountBalanceController {
 
   private final AccountBalanceRetriever accountBalanceRetriever;
 
+  @ApiOperation("Return the account balance.")
   @GetMapping
   public ResponseEntity<Response<AccountBalance>> retrieveAccountBalance() {
     return accountBalanceRetriever.getBalance()

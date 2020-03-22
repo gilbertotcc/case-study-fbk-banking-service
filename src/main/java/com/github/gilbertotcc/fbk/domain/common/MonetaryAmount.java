@@ -1,5 +1,6 @@
 package com.github.gilbertotcc.fbk.domain.common;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Value;
 
 import java.math.BigDecimal;
@@ -11,10 +12,13 @@ public class MonetaryAmount {
     CENTS
   }
 
+  @ApiModelProperty(notes = "Amount expressed in the specified unit.")
   int amount;
 
+  @ApiModelProperty(notes = "Unit used to represent the amount.", example = "CENTS")
   Unit unit;
 
+  @ApiModelProperty(notes = "Currency of the monetary amount.", example = "EUR")
   String currency;
 
   public static MonetaryAmount toCentMonetaryAmount(BigDecimal bigDecimalAmount, String currency) {

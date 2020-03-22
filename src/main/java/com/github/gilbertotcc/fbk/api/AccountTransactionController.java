@@ -2,6 +2,8 @@ package com.github.gilbertotcc.fbk.api;
 
 import com.github.gilbertotcc.fbk.domain.transaction.AccountTransaction;
 import com.github.gilbertotcc.fbk.domain.transaction.AccountTransactionRetriever;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
@@ -21,10 +23,13 @@ public class AccountTransactionController {
 
   private final AccountTransactionRetriever accountTransactionRetriever;
 
+  @ApiOperation("Return the account transactions.")
   @GetMapping
   public ResponseEntity<Response<List<AccountTransaction>>> retrieveAccountTransactions(
+    @ApiParam("Start date used for filtering requested transactions.")
     @RequestParam("from")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate from,
+    @ApiParam("End date used for filtering requested transactions.")
     @RequestParam("to")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate to
   ) {
