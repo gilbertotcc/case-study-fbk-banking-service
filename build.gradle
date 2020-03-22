@@ -31,6 +31,7 @@ dependencies {
   compileOnly 'org.projectlombok:lombok'
   annotationProcessor 'org.projectlombok:lombok'
   compile 'io.vavr:vavr:0.10.2'
+  compile 'org.apache.commons:commons-lang3'
 
   // TESTS
   testCompileOnly 'org.projectlombok:lombok'

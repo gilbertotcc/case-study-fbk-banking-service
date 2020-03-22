@@ -1,6 +1,7 @@
 package com.github.gilbertotcc.fbk.infrastructure.fabrick.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -12,9 +13,9 @@ public class Transaction {
   @Data
   public static class Type {
 
-    private String enumeration;
+    String enumeration;
 
-    private String value;
+    String value;
   }
 
   private String transactionId;
