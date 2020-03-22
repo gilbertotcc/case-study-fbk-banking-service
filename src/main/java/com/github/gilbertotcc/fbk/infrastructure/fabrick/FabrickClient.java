@@ -40,8 +40,8 @@ public class FabrickClient {
 
   private final RestTemplate restTemplate;
 
-  public FabrickClient(@Value("{fabrick.baseUrl}") String baseUrl,
-                       @Value("{fabrick.apiKey}") String apiKey,
+  public FabrickClient(@Value("${fabrick.baseUrl}") String baseUrl,
+                       @Value("${fabrick.apiKey}") String apiKey,
                        RestTemplate restTemplate) {
     this.baseUrl = baseUrl;
     this.apiKey = apiKey;

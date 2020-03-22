@@ -1,3 +1,7 @@
+logging:
+  level:
+    root: TRACE
+
 account:
   id: ${ACCOUNT_ID:}
 

@@ -2,7 +2,6 @@ package com.github.gilbertotcc.fbk.domain.transfer;
 
 import com.github.gilbertotcc.fbk.infrastructure.fabrick.FabrickClient;
 import com.github.gilbertotcc.fbk.infrastructure.fabrick.models.CreateTransferRequestBody;
-import com.github.gilbertotcc.fbk.infrastructure.fabrick.models.Transfer;
 import io.vavr.control.Try;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
@@ -42,6 +41,7 @@ public class TransferSubmitter {
       .description(submitTransferInput.getDescription())
       .executionDate(submitTransferInput.getExecutionDate())
       .build();
-    return fabrickClient.createTransferWithAccount(accountId, createTransferRequestBody);
+    return fabrickClient.createTransferWithAccount(accountId, createTransferRequestBody)
+      .map(transfer -> new Transfer());
   }
 }

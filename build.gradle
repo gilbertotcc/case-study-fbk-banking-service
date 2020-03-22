@@ -33,6 +33,10 @@ dependencies {
   compile 'io.vavr:vavr:0.10.2'
   compile 'org.apache.commons:commons-lang3'
 
+  // SWAGGER
+  compile 'io.springfox:springfox-swagger2:2.9.2'
+  compile 'io.springfox:springfox-swagger-ui:2.9.2'
+
   // TESTS
   testCompileOnly 'org.projectlombok:lombok'
   testAnnotationProcessor 'org.projectlombok:lombok'
