@@ -1,4 +1,4 @@
-package com.github.gilbertotcc.fbk.domain.account;
+package com.github.gilbertotcc.fbk.domain.balance;
 
 import com.github.gilbertotcc.fbk.domain.common.MonetaryAmount;
 import io.swagger.annotations.ApiModelProperty;

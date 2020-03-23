@@ -32,7 +32,7 @@ public class TransferSubmitterTest {
 
     assertTrue(transferTry.isSuccess());
     verify(fabrickClient).createTransferWithAccount(any(), argThat(argument -> {
-      // TODO Add more assertions
+      // Some assertions are missing
       assertEquals(submitTransferInput.getDescription(), argument.getDescription());
       return true;
     }));

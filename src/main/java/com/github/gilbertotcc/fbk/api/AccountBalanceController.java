@@ -1,7 +1,7 @@
 package com.github.gilbertotcc.fbk.api;
 
-import com.github.gilbertotcc.fbk.domain.account.AccountBalance;
-import com.github.gilbertotcc.fbk.domain.account.AccountBalanceRetriever;
+import com.github.gilbertotcc.fbk.domain.balance.AccountBalance;
+import com.github.gilbertotcc.fbk.domain.balance.AccountBalanceRetriever;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -4,7 +4,12 @@ plugins {
   id 'java'
   id 'idea'
   id 'checkstyle'
+  id 'jacoco'
   id 'com.adarshr.test-logger' version '1.6.0'
+}
+
+ext {
+  jacocoMergedReport = file("$buildDir/jacoco/mergeTest.exec")
 }
 
 group = 'com.github.gilbertotcc.fbk'
@@ -57,6 +62,16 @@ dependencies {
 
 test {
   useJUnitPlatform()
+}
+
+task jacocoMergeTestReport(type: JacocoMerge) {
+  executionData tasks.withType(Test)
+  destinationFile = jacocoMergedReport
+}
+
+jacocoTestReport {
+  dependsOn jacocoMergeTestReport
+  executionData jacocoMergedReport
 }
 
 // CHECKSTYLE
