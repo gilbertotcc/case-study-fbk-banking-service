@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class AccountTransactionControllerTest {
+class AccountTransactionControllerTest {
 
   private final AccountTransactionRetriever accountTransactionRetriever = mock(AccountTransactionRetriever.class);
 

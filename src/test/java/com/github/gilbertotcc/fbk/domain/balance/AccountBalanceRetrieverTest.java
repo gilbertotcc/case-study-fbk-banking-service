@@ -10,13 +10,13 @@ import java.math.RoundingMode;
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.eq;
 
-public class AccountBalanceRetrieverTest {
+class AccountBalanceRetrieverTest {
 
-  private FabrickClient fabrickClient = mock(FabrickClient.class);
+  private final FabrickClient fabrickClient = mock(FabrickClient.class);
 
   @Test
   void getBalanceShouldSuccess() {

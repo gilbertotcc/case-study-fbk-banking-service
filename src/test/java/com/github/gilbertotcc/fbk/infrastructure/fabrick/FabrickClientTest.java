@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FabrickClientTest {
+class FabrickClientTest {
 
   private static final int PORT = SocketUtils.findAvailableTcpPort();
   private static final String BASE_URL = format("http://localhost:%d", PORT);

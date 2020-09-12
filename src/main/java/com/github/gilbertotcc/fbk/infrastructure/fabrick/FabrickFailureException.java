@@ -2,7 +2,6 @@ package com.github.gilbertotcc.fbk.infrastructure.fabrick;
 
 import com.github.gilbertotcc.fbk.infrastructure.fabrick.models.Response;
 import com.github.gilbertotcc.fbk.infrastructure.fabrick.models.ResponseError;
-
 import lombok.Getter;
 import org.springframework.http.ResponseEntity;
 

@@ -16,9 +16,9 @@ import static org.mockito.Mockito.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class AccountTransactionsRetrieverTest {
+class AccountTransactionsRetrieverTest {
 
-  private FabrickClient fabrickClient = mock(FabrickClient.class);
+  private final FabrickClient fabrickClient = mock(FabrickClient.class);
 
   @Test
   void getBalanceShouldSuccess() {

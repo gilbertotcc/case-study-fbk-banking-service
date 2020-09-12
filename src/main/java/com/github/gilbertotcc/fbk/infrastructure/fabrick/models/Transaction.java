@@ -1,7 +1,6 @@
 package com.github.gilbertotcc.fbk.infrastructure.fabrick.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -16,9 +16,9 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-public class TransferSubmitterTest {
+class TransferSubmitterTest {
 
-  private FabrickClient fabrickClient = mock(FabrickClient.class);
+  private final FabrickClient fabrickClient = mock(FabrickClient.class);
 
   @Test
   void submitTransferShouldSuccess() {
