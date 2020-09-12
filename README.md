@@ -1,34 +1,33 @@
 # Case study: FBK banking service
 
-## Start the service
+This Spring Boot service implements few functionalities that make use of the
+[Fabrick](https://www.fabrick.com/) API platform.
 
-In order to start the Spring Boot service the following environment variables
-must be set:
+## Usage
 
-- `ACCOUNT_ID`, it is the id of the account used by the service;
+The service needs the following environment variables to be set in order to
+properly start and work:
+
+- `ACCOUNT_ID`, the id of the account used by the service;
 - `FABRICK_API_KEY`, API key used in the calls to Fabrick APIs.
 
-Then the service can be ran with:
+The following command starts the service *(it needs Java 11)*:
 
 ```bash
 $ ./gradlew bootRun
 ```
 
-*(Java 11 is needed.)*
-
-## Testing the service
-
-The operations of the service can be tested using the Swagger web page available
-at `{BASE_URL}/swagger-ui.html`.
+After starting the service, the operations exposed by its API can be used from
+the Swagger web page available at `{BASE_URL}/swagger-ui.html`.
 
 ## Test coverage report
 
-The project uses [JaCoco](https://www.eclemma.org/jacoco/) to create a report
-with the test coverage.
+The project uses [JaCoco](https://www.eclemma.org/jacoco/) to generate a report
+with the tests' coverage.
 In order to generate the report run:
 
 ```bash
 $ ./gradlew jacocoTestReport
 ```
 
-Then report can be found at `build/reports/jacoco/test/html/index.html`.
+The HTML report is generated at `build/reports/jacoco/test/html/index.html`.
